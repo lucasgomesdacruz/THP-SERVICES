@@ -1,0 +1,12 @@
+[data-custom-text="textCustom"] {
+    color: var(--secondary-color); 
+}
+[data-custom-text="textCustom"] > li {
+    cursor: pointer;
+    padding: 10px 50px 10px 10px;
+}
+ul[data-custom-text="textCustom"]:first-of-type li:nth-child(2) {
+    border-radius: 10px;
+    color: white;
+    background: var(--primary-color);
+}

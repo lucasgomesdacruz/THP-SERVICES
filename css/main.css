@@ -1,0 +1,25 @@
+.input-icon i {
+    color: var(--primary-color);
+}
+.input-icon input {
+    padding: 10px;
+}
+.input-icon > input:focus {
+    outline: none;
+    box-shadow: none; 
+}
+.input-icon input.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+[data-custom-client="newClient"] {
+    font-size: 22px;
+    color: var(--secondary-color);
+}
+[data-custom-client="newClient"] > i {
+    cursor: pointer;
+}
+[data-custom-client="newClient"] button {
+    background: var(--primary-button);
+}
+

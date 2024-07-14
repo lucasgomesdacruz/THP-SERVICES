@@ -1,0 +1,35 @@
+[data-custom-customer="customContainer"] {
+    background-color: var(--bg-color);
+}
+[data-custom-customer="customContainer"] input::placeholder {
+    color: black;
+}
+[data-custom-customer="customContainer"] > div {
+    height: 100dvh;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 110px;
+    border-top: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+}
+[data-custom-customer="customContainer"] h1 {
+    color: var(--primary-color);
+}
+
+[data-custom-customer="services"] > div {
+    background: #dddddd;
+    cursor: pointer;
+}
+
+[data-custom-customer="services"] div > p > i {
+    min-width: 55px;   
+    min-height: 55px;  
+    border-radius: 50%;
+    background-size: cover;
+    background: var(--primary-color);
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    cursor: pointer;
+}
